@@ -1,18 +1,30 @@
-HTML & CSS Practice Projects
-This repository contains various projects created during my practice of HTML and CSS. Each project explores different aspects of front-end web development, focusing on:
+# HTML & CSS Weekly Tasks Repository
 
-Basic HTML structure and layout
-Styling with CSS, including flexbox, grid, and animations
-Responsive design techniques
-Projects
-Each folder in the repository represents a separate project. You can browse through the directories to explore the code and try the demos.
+This repository contains a collection of tasks and projects created during my preparation of HTML and CSS. The tasks range from basic to advanced levels, showcasing my progress and understanding of web development fundamentals.
 
+## About the Repository
 
-Usage
-To run these projects locally:
+The tasks included here were part of my regular practice sessions, aimed at mastering HTML and CSS. Each week focused on different aspects, starting from the basics like structuring pages and styling elements, to more advanced concepts like responsive design, animations, and modern CSS techniques.
 
-Clone the repository
-          git clone https://github.com/your-username/Html-Css-practices.git
-Navigate to the project directory of your choice.
+## Technologies Used
+- **HTML5**
+- **CSS3**
+- **Responsive Web Design Techniques**
+- **Flexbox & Grid**
+- **CSS Animations & Transitions**
 
-Open the index.html file in your preferred browser.
+## Repository Structure
+
+The repository is organized into weekly folders, with each folder containing tasks or mini-projects demonstrating different concepts of HTML and CSS. Here’s a breakdown:
+
+### Highlights:
+- **Week 1-2:** HTML Basics, Structuring Pages, Semantic Elements
+- **Week 3-4:** CSS Basics, Selectors, Box Model, Flexbox
+- **Week 5-6:** Advanced CSS, Grid Layout, Responsive Design
+- **Week 7-8:** CSS Animations, Transitions, and Effects
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gowtham825/Html-Css_practices.git
