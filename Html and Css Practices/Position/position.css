@@ -1,0 +1,49 @@
+.full{
+    position:relative;
+    background-color: yellowgreen;
+    top: 10px;
+    left: 0px;
+    
+    border: 3px solid black;
+    height: 1500px;
+    width:auto;
+    padding: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px ;
+}
+.half1{
+    position:absolute;
+    background-color: rgb(25, 26, 25);
+    z-index: 3;
+    
+}
+.half2{
+    position:absolute;
+    right: 10px;
+    top: 169px;
+    background-color: rgb(30, 31, 30);
+    z-index: 2;
+}
+.half3{
+       position:sticky;
+       background-color:violet;
+       top: 5px;
+       left: 2px;
+       height:auto;
+       width:200px;
+       z-index: 1;
+       
+       
+}
+.half4{
+    position:fixed;
+    background-color:black;
+    color:white;
+    height:50px;
+    width: 67px;
+    bottom: 10px;
+    margin-left: 92%;
+    
+}
+.half5{
+  background-color: #fff;   
+}

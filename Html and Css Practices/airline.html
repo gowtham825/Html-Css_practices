@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <style>
+            h1{text-align: center;}
+        </style>
+        <title>Easytrips.com</title>
+        <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2016/11/08/05/01/airplane-1807486_1280.jpg" type="image/x-icon">
+         
+        <h1>AIRLINE TICKETING SYSTEM</h1> 
+    </head>
+    <body >
+        <center>
+        
+            
+            <form action="data.php" target="_blank" method="post" autocomplete="on" rel="nofollow">
+            <fieldset style=" width: 480px;background-color:rgb(184, 169, 108);">
+            <legend>
+                PASSENGER DETAILS</legend>
+                <label for="fname">FULL NAME*</label><br>
+                
+                <input type="text" name="fname" id="fname"><br>
+                
+                
+                <label for="mail"> EMAIl*  </label><br>
+                <input type="email" name="mail" id="mail"><br>
+                <span class="legend">GENDER* </span><br>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">MALE</label>
+                <input type="radio" name="Bgender" id="Bgender">
+                <label for="gender">FEMALE</label><br>
+                <label for="ph"> TELE NO*</label><br>
+                <input type="tel" name="ph" id="ph"><br>
+                <label for="bir"> BIRTH DATE</label><br>
+                <input type="date" name="bir" id="bir"><br>
+                <label for="city"> CITY</label><br>
+                <input type="text" name="city" id="city"><br>
+                <label for="country"> COUNTRY*</label><br>
+                <input type="text" name="country" id="country"><br>
+                <label for="fil">PROOF*</label><br>
+                <input type="file" name="fil" id="fil"><br>
+                <label for="zip">ZIP CODE</label><br>
+
+                <input type="number" name="zip" id="zip"><br>
+                <label for="no">No Of Adult*</label><br>
+                <input type="number" name="no" id="no"><br>
+                <label for="chi">No Of Child* </label><br>
+                <input type="number" name="chi" id="chi"><br>
+                <input type="reset" name="last" id="last">
+                <input type="button" value="proceed">
+            
+       <br>
+       
+        </fieldset>
+        </form>
+    </center><br>
+
+        
+    </body>
+    
+   
+    
+    <body  >
+        <center>
+        <form action="data.php" target="_blank" method="post" autocomplete="on" rel="nofollow"></form>
+        
+        <fieldset style= " width: 480px;background-color:rgb(108, 184, 125);">
+        <legend>
+            FLIGHT DETAILS
+
+        </legend>
+        <label for="dat" >JOURNEY DATE*  </label> <br> 
+        <input type="date" name="dat" id="dat"><br>
+        <label for="fro"> FROM*</label><br>
+        <input list="dis"><br>
+        <datalist id="dis">
+            <option value="chennai">chennai</option>
+            <option value="TRICHY">TRICHY</option>
+            <option value="coimbatore">coimbatore</option>
+            <option value="madurai">madurai</option>
+            
+            
+
+        </datalist>
+        <label for="to">TO*</label><br>
+        <input type="text" name="to" id="to"><br>
+        <label for="cls">CLASS</label><br>
+        <select id="cls" name="cls">
+            <option value="mid">please select</option>
+            <option value="mid">ECONOMY</option>
+            <option value="mid">BUISNESS</option>
+            <option value="mid">FIRST</option>
+        </select><br>
+        
+        <span class="tim">TIME*</span><br>
+     <input type="checkbox" name="tim" id="tim">
+        <label for="tim">A.M</label>
+        <input type="checkbox" name="tim" id="tim">
+        <label for="tim">P.M</label><br>
+        <input type="button" value="Change">
+        <input  type="button" value="Proceed">
+        
+        
+    </fieldset><br>
+    <fieldset style= " width: 480px;background-color:rgb(216, 9, 9);">
+    <legend>
+        Instructions to Follow
+    </legend>
+     <ul style="list-style-type: circle;"><br>
+        <li>Full charges is allowed for children more than 2 years compulsory</li><br>
+        <li> Booking is allowed for maixmum for 6 peoples(including childrens)</li><br>
+        <li>Please submit the age proof of children below 2 years which is mandotory</li>
+     </ol>
+        
+        
+    
+     </h4>
+    
+    
+    
+    
+    
+    
+    </fieldset>
+    <input type="checkbox">
+    <span>I accept your Terms and Condition</span><br>
+    <span>
+        
+        <input type="button" value="cancel">
+        <input type="button" value="submit"><br>
+        <output>!Submitted Enjoy your JOURNEY!</output>
+        </span>
+        </center>
+        
+    </body>
+    
+</html>
+

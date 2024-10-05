@@ -1,0 +1,15 @@
+
+*{
+    background-color:sienna;
+}
+.section1{
+    background-color:rgb(43, 255, 0);
+    width: 400;
+    color: rgb(239, 233, 233);
+    padding:auto;
+    margin: auto;
+}
+.section6{
+    background-color: yellowgreen;
+    background-image: url(img/i4.jpeg);
+}
